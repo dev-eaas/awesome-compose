@@ -1,3 +1,4 @@
+version: '3'
 services:
   web:
     build: angular
@@ -5,4 +6,4 @@ services:
       - 4200:4200
     volumes:
       - ./angular:/project
-      - /project/node_modules
+#      - /project/node_modules
